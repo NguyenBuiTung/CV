@@ -4,11 +4,9 @@ import Aos from "aos"
 import { DataContextProvider } from "../context/DataContext";
 
 export default function HomePage() {
-
     useEffect(() => {
         Aos.init({ duration: "1000" })
     }, [])
-
     return (
         <DataContextProvider>
             <DomHead />
@@ -18,7 +16,7 @@ export default function HomePage() {
                     <Projects />
                 </Container>
                 <Quote />
-                <Contact />
+               
                 <Footer />
             </Layout>
         </DataContextProvider>

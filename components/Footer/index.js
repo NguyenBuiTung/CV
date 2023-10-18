@@ -21,8 +21,6 @@ function Footer() {
           </div>
           <div className="right">
             <div className="socials flex flex-row items-center justify-center">
-              {socials["twitter"] !== "" && <SocialLink url={socials["twitter"]} children={<FaTwitter />} />}
-
               {socials["github"] !== "" && <SocialLink url={socials["github"]} children={<FaGithub />} />}
 
               {socials["email"] !== "" && <SocialLink url={socials["email"]} children={<AiFillMail />} />}
@@ -54,7 +52,7 @@ function Refer() {
   return (
     <div className="w-screen flex flex-row items-center justify-center absolute bottom-[100px] mx-auto md:bottom-[10px]">
       <span className="py-2 text-[12px] text-white-200 ">
-        Powered with 💖 by <a target="_blank" href="https://github.com/benrobo/baaymax" className="text-green-200 underline hover:text-green-200">BaayMax</a>
+        Powered with 💖 by <a target="_blank" href="https://github.com/NguyenBuiTung" className="text-green-200 underline hover:text-green-200">NguyenBuiTung</a>
       </span>
     </div>
   )

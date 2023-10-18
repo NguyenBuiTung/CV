@@ -92,7 +92,7 @@ export default function Header({ children }) {
                             </div>
                             <div data-aos="zoom-in-right" className={`w-[50%] mr-[20px] flex flex-row items-center justify-start`}>
                                 <h1 className={` text-[35px] pt-[10px] pr-[10px] pb-0 pl-0 `}>
-                                    {reposcount}
+                                    24
                                 </h1>
                                 <span className={` w-[50px] text-white-300 text-[10px] `}>
                                     Projects / Contributions
@@ -116,13 +116,13 @@ export default function Header({ children }) {
                             {/* <img data-aos="zoom-in-up" src={avatar === "" ? userAvatar.src : avatar} className={`avatar rounded-[50%] `} /> */}
                         </div>
                         <div data-aos="fade-up" className={`circleA`}>
-                            <img src={languages.languages.length === 0 && languages.languages.length > 2 ? "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" : languages.languages[0]} className={`langImgA`} />
+                            <img src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"} className={`langImgA`} />
                         </div>
                         <div data-aos="fade-right" className={`circleB`}>
-                            <img src={languages.languages.length === 0 && languages.languages.length > 2 ? "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" : languages.languages[1]} className={`langImgB`} />
+                            <img src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" } className={`langImgB`} />
                         </div>
                         <div data-aos="fade-left" className={`circleC`}>
-                            <img src={languages.languages.length === 0 && languages.languages.length > 2 ? "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" : languages.languages[2]} className={`langImgC`} />
+                            <img src={"https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"} className={`langImgC`} />
                         </div>
                     </div>
                 </div>
@@ -148,7 +148,7 @@ function ResumeViewer({ openResume }) {
                     <button className="px-3 py-1 flex flex-row items-center justify-center bg-green-300 ml-4 text-[12px] text-dark-300 font-bold rounded-[5px] scale-[.90] transition-all hover:scale-[.95]  " onClick={dowloadCv}>Download</button>
                     <button className="px-3 py-1 flex flex-row items-center justify-center bg-red-500 ml-4 text-[12px] text-dark-300 font-bold rounded-[5px] scale-[.90] transition-all hover:scale-[.95] " onClick={openResume}>Close</button>
                 </div>
-                <iframe src={"/CV/resume.pdf"} frameborder="0" className="w-full h-full overflow-scroll bg-white-200 mt-0"></iframe>
+                <iframe src={"/CV/mycv.pdf"} frameborder="0" className="w-full h-full overflow-scroll bg-white-200 mt-0"></iframe>
                 <br />
                 <br />
                 <br />

@@ -33,12 +33,6 @@ function NavBar() {
                 </div>
                 <div className={`relative right w-[50vmin] hidden md:flex `}>
                     <ul className={`flex flex-row align-center justify-between items-center`}>
-                        {socials["twitter"] !== "" &&
-                            <a href={socials["twitter"]} target="_blank" className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}>
-                                <FaTwitter className={`mr-[10px] `} />
-                                <small>Twitter</small>
-                            </a>}
-
                         {socials["github"] !== "" &&
                             <a href={socials["github"]} target="_blank" className={`w-[100px] text-[17px] flex flex-row align-center justify-center items-center decoration-none  hover:text-white `}>
                                 <FaGithub className={`mr-[10px] `} />

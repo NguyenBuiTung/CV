@@ -24,8 +24,8 @@ function Layout({ children }) {
         <NavBar />
       </Header>
       {children}
+      <script src="https://w.ladicdn.com/ladichat/sdk.js" id="652ceda6d5dbbc0012694766_652cff30d5dbbc00126b713c" async></script>
       {windowWidth <= 700 && <ResponsiveNavbar />}
-      {/* <Footer /> */}
     </div>
   )
 }
